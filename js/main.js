@@ -56,7 +56,7 @@ function init() {
 
     audio = new THREE.Audio(listener);
 
-    audioLoader.load('ambientjam.mp3', function(buffer) {
+    audioLoader.load('td.ogg', function(buffer) {
         audio.setBuffer(buffer);
         audio.setLoop(true);
         audio.setVolume(30);
